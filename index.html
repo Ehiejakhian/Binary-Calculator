@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Binary Calculator</title>
+        <link rel="stylesheet" href="binary.css">
+        <link rel="icon" type ="image/x-icon" href="binary.ico">
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>Binary Calculator</legend>
+            <label for="select-el">To:</label>
+            <select id="select-el">
+                <option selected value="Binary">Binary</option>
+                <option value="Octal">Octal</option>
+                <option value="Hexadecimal">Hexadecimal</option>
+            </select>
+            <input type="number" placeholder="Type Number Here ... " id="input-el">
+            <button id="btn-el">Convert</button>
+            <p id="result-el"></p>
+        </fieldset>
+        <script src="binary.js"></script>
+    </body>
+</html>
